@@ -1,0 +1,48 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+media/
+staticfiles/
+static/
+
+# Environment variables
+.env
+.env.*
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Migrations (optional: uncomment if you don't want to track initial migrations)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Local settings
+local_settings.py
+
+# macOS files
+.DS_Store
